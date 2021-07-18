@@ -1,10 +1,10 @@
 .icon{
-    color: red;
-    font-size: 30px;
+    color: #c31432;
+    font-size: 35px;
 }
 
 body{
-        background: #c31432; background: -webkit-linear-gradient(to right, #240b36, #c31432); background: linear-gradient(to right, #240b36, #c31432);
+        background-color: #c31432;
 
 }
 
