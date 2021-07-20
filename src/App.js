@@ -48,6 +48,15 @@ const App = () => {
         else if(tiktacArray[0]== tiktacArray[4] && tiktacArray[0]==tiktacArray[8] && tiktacArray[0]){
             setWinMessage(tiktacArray[0]+" has won")
         }
+        
+        
+        //match draw logic
+        let MatchDraw = !tictaktoeArray.includes("")
+        if(MatchDraw){
+            setWinMessage("`Game ended in a draw..!")
+            return toast( "Match Draw..!!",{type:"dark"})
+        }
+           
 
     }
 
